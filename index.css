@@ -1,0 +1,49 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.done
+{
+    text-decoration: line-through;
+        color: gray;
+}
+
+.edit-mode {
+    display: none;
+}
+.container
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    place-content: center;
+}
+.inputcol
+{
+    display: grid;
+    grid-auto-flow: column;
+}
+.todolist
+{   margin-top: 20px;
+    overflow: auto;
+    max-width: 300px;
+    max-height: 100px;
+
+    /* to make div /any element stop expanding giv max-height property and overflow auto */
+}
+body
+{
+    background-image:linear-gradient(rgb(105, 127, 235),blue);
+    min-width: 400px;
+    min-height: 200px;
+}
+.hide{
+    display: none;
+   
+}
+.s{
+    color: red;
+        text-align: center;
+}
